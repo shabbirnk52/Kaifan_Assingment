@@ -1,0 +1,23 @@
+/* Global font settings */
+:root {
+  --font-family-arabic: 'Cairo', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  font-family: var(--font-family-arabic);
+}
+
+/* Utility classes for text alignment */
+.text-right {
+  text-align: right;
+}
+
+.arabic-text {
+  font-family: var(--font-family-arabic);
+  line-height: 1.6;
+}
+
+/* Custom styling for numbers in Arabic context */
+.numbers {
+  font-feature-settings: "kern", "liga", "clig", "calt", "tnum";
+}
